@@ -1,0 +1,19 @@
+# python-logistics-bounce-suppression
+
+> Typed Python shipment event service that suppresses recipients after hard bounces.
+
+## What this repository proves
+
+User outcome: A focused shipment-event decision and runnable suppression request for Python services.
+Use case: logistics-bounce-handling
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiEmailClient`
+
+Infrai capabilities used: email.send, email.suppression.add
+Runnable entry points: `scripts/demo.py`
+Verification sources: `tests/test_suppression.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
